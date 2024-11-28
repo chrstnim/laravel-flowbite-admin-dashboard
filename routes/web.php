@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::name('index-practice')->get('/', function () {
     return view('pages.practice.index');
+    
 });
 
 Route::name('practice.')->group(function () {
